@@ -12,3 +12,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.teamButton {
+  width: 220px;
+  margin: 4px 4px;
+}
+
+.body{
+  /* opacity: 0.6; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://ctsportslawblog.files.wordpress.com/2009/06/nba.jpg")
+}
+
+.controlRadio {
+  text-align:right;
+  margin-right:15%
+}
+
+.container {
+  margin-top:50px;
+  margin-bottom:50px
+}
+.container h4{
+  text-align:center;
+}
+
+.recharts-wrapper {
+  margin-left:auto;
+  margin-right:auto
+}
+
+.dataImporter {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center
+}
+
+
