@@ -49,4 +49,12 @@ code {
   text-align:center
 }
 
+.jumbotron {
+  text-align:center;
+}
+
+.controlRadio label {
+  margin-right:10px;
+}
+
 

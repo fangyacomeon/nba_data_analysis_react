@@ -9,9 +9,6 @@ const Navbar = () => {
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     </ul>
-                    <span class="navbar-text">
-                        login
-                    </span>
                 </div>
         </nav>    
     )

@@ -22,8 +22,8 @@ class SimpleLineChart extends Component{
     }
 
     componentWillMount() {
-        var csvFilePath = require("../nba.csv");
-        var Papa = require("papaparse/papaparse.min.js");
+        const csvFilePath = require("../nba.csv");
+        const Papa = require("papaparse/papaparse.min.js");
         Papa.parse(csvFilePath, {
             header: true,
             download: true,
@@ -115,7 +115,6 @@ class SimpleLineChart extends Component{
         allTeams.forEach((team) => {
             teams.push({"value":team, "label": team});
         });
-    
         this.setState({originalData: data, teams: teams}); 
     }
 
